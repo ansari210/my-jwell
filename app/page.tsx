@@ -8,7 +8,7 @@ export default async function Home() {
 
     console.log("hlo")
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/get-web-preview/www.survey-box.com`,
+    `${process.env.NEXT_PUBLIC_API_URL}/get-web-preview/www.myjwell.com`,
     {
       headers: {
         Authorization: `${token}`,
